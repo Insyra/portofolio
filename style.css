@@ -12,7 +12,11 @@ body {
     background-repeat: no-repeat;
     padding-top: 60px; /* Atur padding sesuai tinggi navbar */
 }
-
+style {
+    #videoContainer {
+        display: none; /* Video tersembunyi sebelum tombol diklik */
+        margin-top: 20px;}
+}
 p {
     font-size: 1rem; /* 16px */
     line-height: 1.9rem;
@@ -277,39 +281,19 @@ h2 {
 }
 
 /* Warna untuk masing-masing skill dan sesuai persentase */
-.progress-bar.Let-him-cook 👩‍🍳 {
-    background-color: rgb(239, 221, 244);
-    width: 85%;
+.progress-bar.Let-him-cook👩‍🍳{
+    background-color: rgb(142, 103, 153);
+    width: 90%;
 }
 
 .progress-bar.Survive {
-    background-color:rgb(239, 221, 244);
-    width: 75%;
+    background-color:  rgb(142, 103, 153);
+    width: 88%;
 }
 
 .progress-bar.Draw {
-    background-color:rgb(239, 221, 244);
-    width: 80%;
-}
-
-.progress-bar.html {
-    background-color: rgb(165, 111, 177);
-    width: 80%;
-}
-
-.progress-bar.figma {
-    background-color: rgb(239, 221, 244);
-    width: 85%;
-}
-
-.progress-bar.communication {
-    background-color: rgb(239, 221, 244);
-    width: 85%;
-}
-
-.progress-bar.creativity {
-    background-color: rgb(239, 221, 244);
-    width: 85%;
+    background-color: rgb(142, 103, 153);
+    width: 60%;
 }
 
 h3 {

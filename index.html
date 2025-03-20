@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Portofolio-Insyra Atalla </title>
-    <link rel="icon" href="../PORTOFOLIO/assets/gws.jpg">
+    <link rel="icon" href="/assets/gws.jpg">
     <link rel="stylesheet" href="style.css"> 
 </head>
 
@@ -20,9 +20,9 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Skills">Skill</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skill</a></li>
                         <li><a href="#Contact">Contact</a></li>
                     </ul>
                 </nav>
@@ -59,7 +59,7 @@
             <!-- About 1 -->
             <div class="about-card">
                 <div class="about-icon">
-                    <img src="../PORTOFOLIO/assets/logo sapala.png" alt="SAPALA">
+                    <img src="/assets/logo sapala.png" alt="SAPALA">
                 </div>
                 <h4>SAPALA</h4>
                 <p>An organization that has an interest in outdoor activities and the environment. </p>
@@ -68,7 +68,7 @@
             <!-- About 2 -->
             <div class="about-card">
                 <div class="about-icon">
-                    <img src="../PORTOFOLIO/assets/logo netflix.jpg" alt="Netflix">
+                    <img src="/assets/logo netflix.jpg" alt="Netflix">
                 </div>
                 <h4>Netflix</h4>
                 <p>A streaming platform for me to watch movies, dramas, anime, and documentaries without ads.</p>
@@ -77,28 +77,28 @@
             <!-- About 3 -->
             <div class="about-card">
                 <div class="about-icon">
-                    <img src="../PORTOFOLIO/assets/webtoon logo.jpg" alt="webt">
+                    <img src="/assets/webtoon logo.jpg" alt="webt">
                 </div>
                 <h4>Webtoon</h4>
                 <p>A digital comic that can be read online by scrolling through various available genres! (I like romance comedy).</p>
             </div>
             <div class="about-card">
                 <div class="about-icon">
-                    <img src="../PORTOFOLIO/assets/hind.png" alt="music">
+                    <img src="/assets/hind.png" alt="music">
                 </div>
                 <h4>Hindia</h4>
                 <p>Hindia is a solo project by Baskara Putra, blending indie and alternative sounds with deep, emotional, and relatable lyrics.</p>
             </div>
             <div class="about-card">
                 <div class="about-icon">
-                    <img src="../PORTOFOLIO/assets/spotify.png" alt="music">
+                    <img src="/assets/spotify.png" alt="music">
                 </div>
                 <h4>spotify</h4>
                 <p>Spotify is a music streaming app where you can listen to millions of songs, create playlists, and discover new music easily.</p>
             </div>
             <div class="about-card">
                 <div class="about-icon">
-                    <img src="../PORTOFOLIO/assets/stockity.png" alt="anjay">
+                    <img src="/assets/stockity.png" alt="anjay">
                 </div>
                 <h4>stockity</h4>
                 <p>Stockity is a trading app that helps users buy and sell stocks easily, track market trends, and manage investments in real time.</p>
@@ -124,28 +124,28 @@
                                 <span class="progressText"> Let him cook 👩‍🍳</span>
                                 <div class="single-progress-txt">
                                     <div class="progress">
-                                        <div class="progress-bar html"></div>
-                                    </div>
+                                        <div class="progress-bar Let-him-cook👩‍🍳"></div>
+                                        <div></div>
                                     <h3>90%</h3>
                                 </div>
-                            </div>
-                            <div class="barWrapper">
-                                <span class="progressText"> Draw</span>
-                                <div class="single-progress-txt">
-                                    <div class="progress">
-                                        <div class="progress-bar html"></div>
-                                    </div>
-                                    <h3> 60%</h3>
-                            </div>
                         </div>
                         <div class="barWrapper">
                             <span class="progressText"> Survive</span>
                             <div class="single-progress-txt">
                                 <div class="progress">
-                                    <div class="progress-bar html"></div>
+                                    <div class="progress-bar Survive"></div>
                                 </div>
                                 <h3>88%</h3>
                             </div>
+                        </div>
+                        <div class="barWrapper">
+                            <span class="progressText"> Draw</span>
+                            <div class="single-progress-txt">
+                                <div class="progress">
+                                    <div class="progress-bar Draw"></div>
+                                </div>
+                                <h3> 60%</h3>
+                        </div>
                         </div>
                         <!--  -->
                     </div>
@@ -159,7 +159,7 @@
     <!-- contact -->
     <section class="Contact" id="Contact">
         <div class="section-heading text-center"></div>
-        <h2>Let's connect ! ✨</h2>
+        <h2>Let's Be Friend babaeh!😋✨</h2>
         <br>
         <div>
             <div class="container">
@@ -183,6 +183,19 @@
                     <button type="submit">Send!</button>
                 </form>
             </div>
+            <!-- Video Container -->
+            <div id="videoContainer">
+                <video width="400" controls>
+                    <source src="/assets/alasan harus jadi temen ku.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <script>
+                document.getElementById("contactForm").addEventListener("submit", function(event) {
+                    event.preventDefault(); // Mencegah reload halaman
+                    document.getElementById("videoContainer").style.display = "block"; // Menampilkan video
+                });
+            </script>
         </div>
     </section>
     <!-- end of contact -->
@@ -192,13 +205,13 @@
         <div class="footer-container">
             <div class="footer-icon">
                 <a href="https://www.instagram.com/ata_llaaa/" target="_blank">
-                    <img src="../PORTOFOLIO/assets/logo instagram.jpg" alt="instagram" width="24" height="24" viewbox="0 0 24 24">
+                    <img src="/assets/logo instagram.jpg" alt="instagram" width="24" height="24" viewbox="0 0 24 24">
                 </a>
                 <a href="https://x.com/octurtleee52429" target="_blank"> 
-                    <img src="../PORTOFOLIO/assets/logo x.jpg" alt="twitter" width="24" height="24" viewbox="0 0 24 24">
+                    <img src="/assets/logo x.jpg" alt="twitter" width="24" height="24" viewbox="0 0 24 24">
                 </a>
                 <a href="https://github.com/Insyra" target="_blank">
-                    <img src="../PORTOFOLIO/assets/github logo.jpg" alt="github" width="24" height="24" viewbox="0 0 24 24">
+                    <img src="/assets/github logo.jpg" alt="github" width="24" height="24" viewbox="0 0 24 24">
                 </a>
             </div>
             <p>&#169; 2025 Insyra Atalla. All right reserved</p>
